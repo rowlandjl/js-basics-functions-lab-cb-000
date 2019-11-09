@@ -1,4 +1,4 @@
-function distanceFromHqInBlocks (distance) {
+function distanceFromHqInBlocks (street) {
   
 }
 

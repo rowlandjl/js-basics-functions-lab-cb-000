@@ -19,5 +19,7 @@ function calculatesFarePrice (startingBlock, endingBlock) {
     return 'cannot travel that far';
   } else if (distanceTravelled > 2000) {
     return 25;
+  } else if (distanceTravelled > 400) {
+    return (distanceTravelled - 400) * 0.02
   }
 }

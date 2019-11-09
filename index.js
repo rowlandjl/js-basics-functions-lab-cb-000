@@ -9,7 +9,7 @@ function distanceFromHqInFeet (street) {
 }
 
 function distanceTravelledInFeet (startingBlock, endingBlock) {
-  
+  return (endingBlock - startingBlock) * 264;
 }
 
 function calculatesFarePrice (startingBlock, endingBlock) {
